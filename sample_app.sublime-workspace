@@ -1,0 +1,185 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"tmp",
+				"tmp_space"
+			],
+			[
+				"di",
+				"disk_func"
+			],
+			[
+				"una",
+				"uname_func"
+			],
+			[
+				"dis",
+				"diskspace_arg"
+			],
+			[
+				"un",
+				"uname_arg"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 56.0,
+		"selected_items":
+		[
+			[
+				"insta pa",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 435.0
+	},
+	"console":
+	{
+		"height": 139.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/artem/work/rails/demo_app/app/models/user.rb",
+		"/home/artem/work/rails/demo_app/app/models/micropost.rb",
+		"/home/artem/work/rails/demo_app/Gemfile",
+		"/home/artem/work/rails/demo_app/config/routes.rb",
+		"/home/artem/work/rails/demo_app/app/controllers/users_controller.rb",
+		"/home/artem/work/rails/demo_app/app/controllers/application_controller.rb",
+		"/home/artem/work/rails/demo_app/app/views/users/index.html.erb",
+		"/home/artem/work/rails/demo_app/db/development.sqlite3",
+		"/home/artem/work/rails/first_app/README.markdown",
+		"/home/artem/work/rails/first_app/Gemfile",
+		"/home/artem/work/rails/first_app/.gitignore",
+		"/home/artem/work/rails/first_app/first_app.sublime-workspace",
+		"/home/artem/work/rails/first_app/first_app.sublime-project",
+		"/home/artem/python/pysysinfo.py",
+		"/home/artem/python/new_pysysinfo.py",
+		"/home/artem/info/python/pythonbrew.info.txt",
+		"/home/artem/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
+		"/home/artem/info/rails/rvm.info.txt",
+		"/home/artem/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+		"/home/artem/python/pyls.py",
+		"/home/artem/python/pyfunc.py"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/home/artem/work/rails/first_app/first_app.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 194.0,
+	"status_bar_visible": true
+}
