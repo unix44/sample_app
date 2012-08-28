@@ -27,13 +27,37 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "app/views/layouts/application.html.erb",
+			"settings":
+			{
+				"buffer_size": 346,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/stylesheets/custom.css",
+			"settings":
+			{
+				"buffer_size": 1413,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 56.0,
+		"height": 125.0,
 		"selected_items":
 		[
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
 			[
 				"insta pa",
 				"Package Control: Install Package"
@@ -43,7 +67,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 435.0
+		"width": 516.0
 	},
 	"console":
 	{
@@ -60,6 +84,26 @@
 	},
 	"file_history":
 	[
+		"/home/artem/work/rails/sample_app/app/views/layouts/_footer.html.erb",
+		"/home/artem/work/rails/sample_app/app/views/layouts/_header.html.erb",
+		"/home/artem/work/rails/sample_app/app/views/layouts/_stylesheets.html.erb",
+		"/home/artem/work/rails/sample_app/app/views/pages/home.html.erb",
+		"/home/artem/work/rails/sample_app/public/stylesheets/custom.css",
+		"/home/artem/work/rails/sample_app/app/controllers/pages_controller.rb",
+		"/home/artem/work/rails/sample_app/example_user.rb",
+		"/home/artem/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
+		"/home/artem/work/rails/sample_app/app/helpers/application_helper.rb",
+		"/home/artem/work/rails/sample_app/app/views/layouts/application.html.erb",
+		"/home/artem/work/rails/sample_app/Gemfile",
+		"/home/artem/work/rails/sample_app/spec/controllers/pages_controller_spec.rb",
+		"/home/artem/work/rails/sample_app/app/views/pages/help.html.erb",
+		"/home/artem/work/rails/sample_app/config/routes.rb",
+		"/home/artem/work/rails/sample_app/app/views/pages/contact.html.erb",
+		"/home/artem/work/rails/sample_app/app/views/pages/about.html.erb",
+		"/home/artem/work/rails/sample_app/spec/spec_helper.rb",
+		"/home/artem/work/rails/sample_app/.rspec",
+		"/home/artem/work/rails/sample_app/public/hello.html",
+		"/home/artem/work/rails/sample_app/README.markdown",
 		"/home/artem/work/rails/demo_app/app/models/user.rb",
 		"/home/artem/work/rails/demo_app/app/models/micropost.rb",
 		"/home/artem/work/rails/demo_app/Gemfile",
@@ -76,7 +120,6 @@
 		"/home/artem/python/pysysinfo.py",
 		"/home/artem/python/new_pysysinfo.py",
 		"/home/artem/info/python/pythonbrew.info.txt",
-		"/home/artem/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
 		"/home/artem/info/rails/rvm.info.txt",
 		"/home/artem/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
 		"/home/artem/python/pyls.py",
@@ -98,6 +141,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"right"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -106,7 +150,7 @@
 		"replace_history":
 		[
 		],
-		"reverse": false,
+		"reverse": true,
 		"show_context": true,
 		"use_buffer2": true,
 		"whole_word": false,
@@ -117,12 +161,66 @@
 		{
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "app/views/layouts/application.html.erb",
+					"settings":
+					{
+						"buffer_size": 346,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								313,
+								313
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "public/stylesheets/custom.css",
+					"settings":
+					{
+						"buffer_size": 1413,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1408,
+								1408
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1214.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 0.0
+		"height": 36.0
 	},
 	"input":
 	{
@@ -161,6 +259,10 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"custom",
+				"public/stylesheets/custom.css"
+			]
 		],
 		"width": 0.0
 	},
@@ -171,7 +273,7 @@
 		[
 			[
 				"",
-				"/home/artem/work/rails/first_app/first_app.sublime-project"
+				"/home/artem/work/ruby/learn_ruby/learn_ruby.sublime-project"
 			]
 		],
 		"width": 380.0
@@ -180,6 +282,6 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 194.0,
+	"side_bar_width": 231.0,
 	"status_bar_visible": true
 }
