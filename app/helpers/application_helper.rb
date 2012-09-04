@@ -1,5 +1,10 @@
 module ApplicationHelper
 
+    # Return a logo for application
+    def logo
+        image_tag("logo.png", :alt=> "Sample App", :class => "round")
+    end
+
     # Retrun a title on a per-page basis
     def title
 

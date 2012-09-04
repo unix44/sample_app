@@ -28,18 +28,26 @@
 	"buffers":
 	[
 		{
-			"file": "app/views/layouts/_header.html.erb",
+			"file": "spec/models/user_spec.rb",
 			"settings":
 			{
-				"buffer_size": 355,
+				"buffer_size": 2045,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/views/layouts/_footer.html.erb",
+			"file": "app/models/user.rb",
 			"settings":
 			{
-				"buffer_size": 345,
+				"buffer_size": 609,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "db/migrate/20120903193527_add_email_uniqueness_index.rb",
+			"settings":
+			{
+				"buffer_size": 181,
 				"line_ending": "Unix"
 			}
 		}
@@ -47,16 +55,16 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 125.0,
+		"height": 56.0,
 		"selected_items":
 		[
 			[
-				"Package Control: ",
-				"Package Control: List Packages"
-			],
-			[
 				"install",
 				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
 			],
 			[
 				"insta pa",
@@ -84,19 +92,22 @@
 	},
 	"file_history":
 	[
+		"/home/artem/work/rails/sample_app/app/models/user.rb",
+		"/home/artem/work/rails/sample_app/Gemfile",
 		"/home/artem/work/rails/sample_app/spec/requests/layout_links_spec.rb",
+		"/home/artem/work/rails/sample_app/app/helpers/application_helper.rb",
+		"/home/artem/work/rails/sample_app/app/views/layouts/_header.html.erb",
+		"/home/artem/work/rails/sample_app/spec/controllers/users_controller_spec.rb",
+		"/home/artem/work/rails/sample_app/app/controllers/users_controller.rb",
 		"/home/artem/work/rails/sample_app/config/routes.rb",
+		"/home/artem/work/rails/sample_app/app/views/pages/home.html.erb",
+		"/home/artem/work/rails/sample_app/app/views/layouts/_footer.html.erb",
 		"/home/artem/work/rails/sample_app/app/views/layouts/application.html.erb",
 		"/home/artem/work/rails/sample_app/public/stylesheets/custom.css",
-		"/home/artem/work/rails/sample_app/app/views/layouts/_footer.html.erb",
-		"/home/artem/work/rails/sample_app/app/views/layouts/_header.html.erb",
 		"/home/artem/work/rails/sample_app/app/views/layouts/_stylesheets.html.erb",
-		"/home/artem/work/rails/sample_app/app/views/pages/home.html.erb",
 		"/home/artem/work/rails/sample_app/app/controllers/pages_controller.rb",
 		"/home/artem/work/rails/sample_app/example_user.rb",
 		"/home/artem/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
-		"/home/artem/work/rails/sample_app/app/helpers/application_helper.rb",
-		"/home/artem/work/rails/sample_app/Gemfile",
 		"/home/artem/work/rails/sample_app/spec/controllers/pages_controller_spec.rb",
 		"/home/artem/work/rails/sample_app/app/views/pages/help.html.erb",
 		"/home/artem/work/rails/sample_app/app/views/pages/contact.html.erb",
@@ -160,28 +171,54 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "app/views/layouts/_header.html.erb",
+					"file": "spec/models/user_spec.rb",
 					"settings":
 					{
-						"buffer_size": 355,
+						"buffer_size": 2045,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								15,
-								15
+								2031,
+								2031
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 874.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/models/user.rb",
+					"settings":
+					{
+						"buffer_size": 609,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								535,
+								535
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -190,24 +227,24 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "app/views/layouts/_footer.html.erb",
+					"buffer": 2,
+					"file": "db/migrate/20120903193527_add_email_uniqueness_index.rb",
 					"settings":
 					{
-						"buffer_size": 345,
+						"buffer_size": 181,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								153,
-								153
+								170,
+								170
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -259,6 +296,22 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"lay",
+				"spec/requests/layout_links_spec.rb"
+			],
+			[
+				"_he",
+				"app/views/layouts/_header.html.erb"
+			],
+			[
+				"home",
+				"app/views/pages/home.html.erb"
+			],
+			[
+				"route",
+				"config/routes.rb"
+			],
 			[
 				"custom",
 				"public/stylesheets/custom.css"
