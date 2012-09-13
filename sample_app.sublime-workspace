@@ -28,37 +28,48 @@
 	"buffers":
 	[
 		{
-			"file": "spec/models/user_spec.rb",
+			"file": "spec/controllers/users_controller_spec.rb",
 			"settings":
 			{
-				"buffer_size": 4451,
+				"buffer_size": 2953,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/models/user.rb",
+			"file": "app/controllers/users_controller.rb",
 			"settings":
 			{
-				"buffer_size": 1599,
+				"buffer_size": 477,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "railscasts.ru — подкасты по Rails\nrubyflow.ru — много полезной инфы\nа вообще правильно написали, нормально изучать Rails только на английском можно\nguides.rubyonrails.org — доступная информация практически по всем аспектам Rails\nwiki.rubyonrails.org — тут есть и на русском, но очень мало\nAgile Web Development with Rails — библия Rails\nrailstutorial.org/ruby-on-rails-tutorial-book — клевая книга \n\n\n\n\nhttp://rusrails.ru/\n\nrailsapi.com\nguides.rubyonrails.org\napidock.com\nhttp://inuse.ru/",
+			"file": "app/views/layouts/application.html.erb",
 			"settings":
 			{
-				"buffer_size": 488,
-				"line_ending": "Unix",
-				"name": "railscasts.ru — подкасты по Rails"
+				"buffer_size": 547,
+				"line_ending": "Unix"
 			}
 		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 56.0,
+		"height": 240.0,
 		"selected_items":
 		[
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"list ",
+				"Package Control: List Packages"
+			],
 			[
 				"install",
 				"Package Control: Install Package"
@@ -76,7 +87,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 516.0
+		"width": 561.0
 	},
 	"console":
 	{
@@ -93,24 +104,32 @@
 	},
 	"file_history":
 	[
+		"/home/artem/work/rails/sample_app/public/stylesheets/custom.css",
+		"/home/artem/work/rails/sample_app/config/application.rb",
+		"/home/artem/work/rails/sample_app/app/views/users/new.html.erb",
+		"/home/artem/work/rails/sample_app/app/views/shared/_error_messages.html.erb",
+		"/home/artem/work/rails/sample_app/app/views/layouts/application.html.erb",
+		"/home/artem/work/rails/sample_app/app/views/layouts/_footer.html.erb",
+		"/home/artem/.config/sublime-text-2/Packages/ZenCoding/zen-coding.sublime-settings",
+		"/home/artem/.config/sublime-text-2/Packages/ZenCoding/Default.sublime-keymap",
+		"/home/artem/work/rails/sample_app/app/models/user.rb",
+		"/home/artem/work/rails/sample_app/spec/models/user_spec.rb",
+		"/home/artem/work/rails/sample_app/app/helpers/users_helper.rb",
+		"/home/artem/work/rails/sample_app/Gemfile",
+		"/home/artem/work/rails/sample_app/app/views/users/show.html.erb",
+		"/home/artem/work/rails/sample_app/app/controllers/users_controller.rb",
+		"/home/artem/work/rails/sample_app/spec/controllers/users_controller_spec.rb",
+		"/home/artem/work/rails/sample_app/app/helpers/pages_helper.rb",
+		"/home/artem/work/rails/sample_app/app/helpers/application_helper.rb",
+		"/home/artem/work/rails/sample_app/spec/factories.rb",
 		"/home/artem/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
 		"/home/artem/work/rails/sample_app/db/migrate/20120909184019_add_salt_to_users.rb",
 		"/home/artem/work/rails/sample_app/db/migrate/20120908185120_add_password_to_users.rb",
-		"/home/artem/work/rails/sample_app/app/controllers/users_controller.rb",
 		"/home/artem/work/rails/sample_app/config/routes.rb",
-		"/home/artem/work/rails/sample_app/app/views/layouts/application.html.erb",
-		"/home/artem/work/rails/sample_app/app/views/users/show.html.erb",
-		"/home/artem/work/rails/sample_app/app/models/user.rb",
-		"/home/artem/work/rails/sample_app/spec/models/user_spec.rb",
 		"/home/artem/work/rails/sample_app/db/migrate/20120903193527_add_email_uniqueness_index.rb",
-		"/home/artem/work/rails/sample_app/Gemfile",
 		"/home/artem/work/rails/sample_app/spec/requests/layout_links_spec.rb",
-		"/home/artem/work/rails/sample_app/app/helpers/application_helper.rb",
 		"/home/artem/work/rails/sample_app/app/views/layouts/_header.html.erb",
-		"/home/artem/work/rails/sample_app/spec/controllers/users_controller_spec.rb",
 		"/home/artem/work/rails/sample_app/app/views/pages/home.html.erb",
-		"/home/artem/work/rails/sample_app/app/views/layouts/_footer.html.erb",
-		"/home/artem/work/rails/sample_app/public/stylesheets/custom.css",
 		"/home/artem/work/rails/sample_app/app/views/layouts/_stylesheets.html.erb",
 		"/home/artem/work/rails/sample_app/app/controllers/pages_controller.rb",
 		"/home/artem/work/rails/sample_app/example_user.rb",
@@ -177,23 +196,23 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "spec/models/user_spec.rb",
+					"file": "spec/controllers/users_controller_spec.rb",
 					"settings":
 					{
-						"buffer_size": 4451,
+						"buffer_size": 2953,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4451,
-								4451
+								2926,
+								2926
 							]
 						],
 						"settings":
@@ -203,25 +222,25 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2142.0,
+						"translation.y": 408.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "app/models/user.rb",
+					"file": "app/controllers/users_controller.rb",
 					"settings":
 					{
-						"buffer_size": 1599,
+						"buffer_size": 477,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1160,
-								1160
+								213,
+								213
 							]
 						],
 						"settings":
@@ -231,31 +250,32 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 255.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
+					"file": "app/views/layouts/application.html.erb",
 					"settings":
 					{
-						"buffer_size": 488,
+						"buffer_size": 547,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								423,
-								423
+								253,
+								253
 							]
 						],
 						"settings":
 						{
-							"auto_name": "railscasts.ru — подкасты по Rails",
-							"is_xml": false,
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
