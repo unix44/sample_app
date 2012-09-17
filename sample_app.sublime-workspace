@@ -28,26 +28,34 @@
 	"buffers":
 	[
 		{
-			"file": "spec/controllers/users_controller_spec.rb",
+			"file": "app/controllers/sessions_controller.rb",
 			"settings":
 			{
-				"buffer_size": 2953,
+				"buffer_size": 552,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/controllers/users_controller.rb",
+			"file": "spec/controllers/sessions_controller_spec.rb",
 			"settings":
 			{
-				"buffer_size": 477,
+				"buffer_size": 2038,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/views/layouts/application.html.erb",
+			"file": "app/helpers/sessions_helper.rb",
 			"settings":
 			{
-				"buffer_size": 547,
+				"buffer_size": 691,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/models/user.rb",
+			"settings":
+			{
+				"buffer_size": 1920,
 				"line_ending": "Unix"
 			}
 		}
@@ -104,11 +112,20 @@
 	},
 	"file_history":
 	[
+		"/home/artem/work/rails/sample_app/spec/spec_helper.rb",
+		"/home/artem/work/rails/sample_app/app/helpers/sessions_helper.rb",
+		"/home/artem/work/rails/sample_app/app/controllers/application_controller.rb",
+		"/home/artem/work/rails/sample_app/app/views/sessions/new.html.erb",
+		"/home/artem/work/rails/sample_app/config/routes.rb",
+		"/home/artem/work/rails/sample_app/app/views/layouts/_header.html.erb",
+		"/home/artem/work/rails/sample_app/app/views/layouts/application.html.erb",
+		"/home/artem/work/rails/sample_app/app/controllers/users_controller.rb",
+		"/home/artem/work/rails/sample_app/spec/controllers/users_controller_spec.rb",
+		"/home/artem/work/rails/sample_app/spec/requests/users_spec.rb",
 		"/home/artem/work/rails/sample_app/public/stylesheets/custom.css",
 		"/home/artem/work/rails/sample_app/config/application.rb",
 		"/home/artem/work/rails/sample_app/app/views/users/new.html.erb",
 		"/home/artem/work/rails/sample_app/app/views/shared/_error_messages.html.erb",
-		"/home/artem/work/rails/sample_app/app/views/layouts/application.html.erb",
 		"/home/artem/work/rails/sample_app/app/views/layouts/_footer.html.erb",
 		"/home/artem/.config/sublime-text-2/Packages/ZenCoding/zen-coding.sublime-settings",
 		"/home/artem/.config/sublime-text-2/Packages/ZenCoding/Default.sublime-keymap",
@@ -117,18 +134,14 @@
 		"/home/artem/work/rails/sample_app/app/helpers/users_helper.rb",
 		"/home/artem/work/rails/sample_app/Gemfile",
 		"/home/artem/work/rails/sample_app/app/views/users/show.html.erb",
-		"/home/artem/work/rails/sample_app/app/controllers/users_controller.rb",
-		"/home/artem/work/rails/sample_app/spec/controllers/users_controller_spec.rb",
 		"/home/artem/work/rails/sample_app/app/helpers/pages_helper.rb",
 		"/home/artem/work/rails/sample_app/app/helpers/application_helper.rb",
 		"/home/artem/work/rails/sample_app/spec/factories.rb",
 		"/home/artem/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
 		"/home/artem/work/rails/sample_app/db/migrate/20120909184019_add_salt_to_users.rb",
 		"/home/artem/work/rails/sample_app/db/migrate/20120908185120_add_password_to_users.rb",
-		"/home/artem/work/rails/sample_app/config/routes.rb",
 		"/home/artem/work/rails/sample_app/db/migrate/20120903193527_add_email_uniqueness_index.rb",
 		"/home/artem/work/rails/sample_app/spec/requests/layout_links_spec.rb",
-		"/home/artem/work/rails/sample_app/app/views/layouts/_header.html.erb",
 		"/home/artem/work/rails/sample_app/app/views/pages/home.html.erb",
 		"/home/artem/work/rails/sample_app/app/views/layouts/_stylesheets.html.erb",
 		"/home/artem/work/rails/sample_app/app/controllers/pages_controller.rb",
@@ -138,7 +151,6 @@
 		"/home/artem/work/rails/sample_app/app/views/pages/help.html.erb",
 		"/home/artem/work/rails/sample_app/app/views/pages/contact.html.erb",
 		"/home/artem/work/rails/sample_app/app/views/pages/about.html.erb",
-		"/home/artem/work/rails/sample_app/spec/spec_helper.rb",
 		"/home/artem/work/rails/sample_app/.rspec",
 		"/home/artem/work/rails/sample_app/public/hello.html",
 		"/home/artem/work/rails/sample_app/README.markdown",
@@ -201,18 +213,18 @@
 			[
 				{
 					"buffer": 0,
-					"file": "spec/controllers/users_controller_spec.rb",
+					"file": "app/controllers/sessions_controller.rb",
 					"settings":
 					{
-						"buffer_size": 2953,
+						"buffer_size": 552,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2926,
-								2926
+								552,
+								552
 							]
 						],
 						"settings":
@@ -222,25 +234,53 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 408.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "app/controllers/users_controller.rb",
+					"file": "spec/controllers/sessions_controller_spec.rb",
 					"settings":
 					{
-						"buffer_size": 477,
+						"buffer_size": 2038,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								213,
-								213
+								2033,
+								2033
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 215.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/helpers/sessions_helper.rb",
+					"settings":
+					{
+						"buffer_size": 691,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								301,
+								301
 							]
 						],
 						"settings":
@@ -256,29 +296,29 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "app/views/layouts/application.html.erb",
+					"buffer": 3,
+					"file": "app/models/user.rb",
 					"settings":
 					{
-						"buffer_size": 547,
+						"buffer_size": 1920,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								253,
-								253
+								1482,
+								1482
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
-							"tab_size": 2,
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 249.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -327,6 +367,18 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"sessionshel",
+				"app/helpers/sessions_helper.rb"
+			],
+			[
+				"user",
+				"app/models/user.rb"
+			],
+			[
+				"sessionshe",
+				"app/helpers/sessions_helper.rb"
+			],
 			[
 				"lay",
 				"spec/requests/layout_links_spec.rb"
