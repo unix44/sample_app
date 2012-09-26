@@ -28,34 +28,10 @@
 	"buffers":
 	[
 		{
-			"file": "app/controllers/sessions_controller.rb",
+			"file": "lib/tasks/sample_data.rake",
 			"settings":
 			{
-				"buffer_size": 552,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "spec/controllers/sessions_controller_spec.rb",
-			"settings":
-			{
-				"buffer_size": 2038,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/helpers/sessions_helper.rb",
-			"settings":
-			{
-				"buffer_size": 691,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/models/user.rb",
-			"settings":
-			{
-				"buffer_size": 1920,
+				"buffer_size": 817,
 				"line_ending": "Unix"
 			}
 		}
@@ -112,39 +88,44 @@
 	},
 	"file_history":
 	[
-		"/home/artem/work/rails/sample_app/spec/spec_helper.rb",
-		"/home/artem/work/rails/sample_app/app/helpers/sessions_helper.rb",
-		"/home/artem/work/rails/sample_app/app/controllers/application_controller.rb",
-		"/home/artem/work/rails/sample_app/app/views/sessions/new.html.erb",
-		"/home/artem/work/rails/sample_app/config/routes.rb",
+		"/home/artem/work/rails/sample_app/Gemfile",
 		"/home/artem/work/rails/sample_app/app/views/layouts/_header.html.erb",
-		"/home/artem/work/rails/sample_app/app/views/layouts/application.html.erb",
 		"/home/artem/work/rails/sample_app/app/controllers/users_controller.rb",
-		"/home/artem/work/rails/sample_app/spec/controllers/users_controller_spec.rb",
-		"/home/artem/work/rails/sample_app/spec/requests/users_spec.rb",
 		"/home/artem/work/rails/sample_app/public/stylesheets/custom.css",
-		"/home/artem/work/rails/sample_app/config/application.rb",
-		"/home/artem/work/rails/sample_app/app/views/users/new.html.erb",
+		"/home/artem/work/rails/sample_app/app/views/users/index.html.erb",
+		"/home/artem/work/rails/sample_app/app/helpers/users_helper.rb",
+		"/home/artem/work/rails/sample_app/app/controllers/sessions_controller.rb",
+		"/home/artem/work/rails/sample_app/spec/requests/friendly_forwardings_spec.rb",
+		"/home/artem/work/rails/sample_app/app/helpers/sessions_helper.rb",
+		"/home/artem/work/rails/sample_app/spec/controllers/users_controller_spec.rb",
 		"/home/artem/work/rails/sample_app/app/views/shared/_error_messages.html.erb",
+		"/home/artem/work/rails/sample_app/app/views/users/edit.html.erb",
+		"/home/artem/work/rails/sample_app/app/views/users/new.html.erb",
+		"/home/artem/work/rails/sample_app/spec/spec_helper.rb",
+		"/home/artem/work/rails/sample_app/app/models/user.rb",
+		"/home/artem/work/rails/sample_app/spec/requests/layout_links_spec.rb",
+		"/home/artem/work/rails/sample_app/spec/requests/users_spec.rb",
+		"/home/artem/work/rails/sample_app/spec/controllers/sessions_controller_spec.rb",
+		"/home/artem/work/rails/sample_app/config/routes.rb",
+		"/home/artem/work/rails/sample_app/app/controllers/application_controller.rb",
+		"/home/artem/work/rails/sample_app/app/helpers/application_helper.rb",
+		"/home/artem/work/rails/sample_app/app/helpers/pages_helper.rb",
+		"/home/artem/work/rails/sample_app/config/application.rb",
+		"/home/artem/work/rails/sample_app/app/controllers/pages_controller.rb",
+		"/home/artem/work/rails/sample_app/app/views/sessions/new.html.erb",
+		"/home/artem/work/rails/sample_app/app/views/layouts/application.html.erb",
 		"/home/artem/work/rails/sample_app/app/views/layouts/_footer.html.erb",
 		"/home/artem/.config/sublime-text-2/Packages/ZenCoding/zen-coding.sublime-settings",
 		"/home/artem/.config/sublime-text-2/Packages/ZenCoding/Default.sublime-keymap",
-		"/home/artem/work/rails/sample_app/app/models/user.rb",
 		"/home/artem/work/rails/sample_app/spec/models/user_spec.rb",
-		"/home/artem/work/rails/sample_app/app/helpers/users_helper.rb",
-		"/home/artem/work/rails/sample_app/Gemfile",
 		"/home/artem/work/rails/sample_app/app/views/users/show.html.erb",
-		"/home/artem/work/rails/sample_app/app/helpers/pages_helper.rb",
-		"/home/artem/work/rails/sample_app/app/helpers/application_helper.rb",
 		"/home/artem/work/rails/sample_app/spec/factories.rb",
 		"/home/artem/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
 		"/home/artem/work/rails/sample_app/db/migrate/20120909184019_add_salt_to_users.rb",
 		"/home/artem/work/rails/sample_app/db/migrate/20120908185120_add_password_to_users.rb",
 		"/home/artem/work/rails/sample_app/db/migrate/20120903193527_add_email_uniqueness_index.rb",
-		"/home/artem/work/rails/sample_app/spec/requests/layout_links_spec.rb",
 		"/home/artem/work/rails/sample_app/app/views/pages/home.html.erb",
 		"/home/artem/work/rails/sample_app/app/views/layouts/_stylesheets.html.erb",
-		"/home/artem/work/rails/sample_app/app/controllers/pages_controller.rb",
 		"/home/artem/work/rails/sample_app/example_user.rb",
 		"/home/artem/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
 		"/home/artem/work/rails/sample_app/spec/controllers/pages_controller_spec.rb",
@@ -183,6 +164,7 @@
 		"height": 0.0,
 		"where_history":
 		[
+			""
 		]
 	},
 	"find_state":
@@ -190,6 +172,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"cookies",
 			"right"
 		],
 		"highlight": true,
@@ -213,18 +196,18 @@
 			[
 				{
 					"buffer": 0,
-					"file": "app/controllers/sessions_controller.rb",
+					"file": "lib/tasks/sample_data.rake",
 					"settings":
 					{
-						"buffer_size": 552,
+						"buffer_size": 817,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								552,
-								552
+								719,
+								719
 							]
 						],
 						"settings":
@@ -235,90 +218,6 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "spec/controllers/sessions_controller_spec.rb",
-					"settings":
-					{
-						"buffer_size": 2038,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2033,
-								2033
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 215.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "app/helpers/sessions_helper.rb",
-					"settings":
-					{
-						"buffer_size": 691,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								301,
-								301
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "app/models/user.rb",
-					"settings":
-					{
-						"buffer_size": 1920,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1482,
-								1482
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 249.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -368,12 +267,56 @@
 		"selected_items":
 		[
 			[
-				"sessionshel",
-				"app/helpers/sessions_helper.rb"
+				"gem",
+				"Gemfile"
+			],
+			[
+				"_hear",
+				"app/views/layouts/_header.html.erb"
+			],
+			[
+				"cust",
+				"public/stylesheets/custom.css"
 			],
 			[
 				"user",
-				"app/models/user.rb"
+				"app/controllers/users_controller.rb"
+			],
+			[
+				"session",
+				"app/controllers/sessions_controller.rb"
+			],
+			[
+				"_hea",
+				"app/views/layouts/_header.html.erb"
+			],
+			[
+				"new",
+				"app/views/users/new.html.erb"
+			],
+			[
+				"_error",
+				"app/views/shared/_error_messages.html.erb"
+			],
+			[
+				"user_co",
+				"spec/controllers/users_controller_spec.rb"
+			],
+			[
+				"spec_he",
+				"spec/spec_helper.rb"
+			],
+			[
+				"users_sp",
+				"spec/requests/users_spec.rb"
+			],
+			[
+				"users",
+				"app/controllers/users_controller.rb"
+			],
+			[
+				"sessionshel",
+				"app/helpers/sessions_helper.rb"
 			],
 			[
 				"sessionshe",
@@ -418,6 +361,6 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 173.0,
+	"side_bar_width": 187.0,
 	"status_bar_visible": true
 }
