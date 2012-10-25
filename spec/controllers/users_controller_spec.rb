@@ -267,6 +267,26 @@ describe UsersController do
 
     end
 
+    describe "check delete microposts" do
+
+        before( :each ) do
+            @user = Factory( :user )
+            20.times do
+                Factory( :micropost, :user => @user )
+            end
+        end
+
+        it "should not have delete link" do
+            wrong_user = Factory( :user, :email => "user@example.ru" )
+            test_sign_in( wrong_user )
+            get :show, :id => @user
+            response.should have_selector( 'a', :href    => "/users/#{@user.id}", 
+                                                :content => "/users/#{@user.id}" )
+            response.should_not have_selector( 'a', :content => "delete" )
+        end
+
+    end
+
     describe "GET 'index'" do
 
         describe "for non-signed-in users" do
@@ -392,6 +412,45 @@ describe UsersController do
                 response.should redirect_to( users_path )
             end
         end
+
+    end
+
+    describe "follow pages" do
+
+        describe "when not signed in" do
+
+            it "should protect 'following'" do
+                get :following, :id => 1
+                response.should redirect_to( signin_path )
+            end
+
+            it "should protect 'followers'" do
+                get :followers, :id => 1
+                response.should redirect_to( signin_path )
+            end
+        end
+
+        describe "when signed in" do
+
+            before( :each ) do
+                @user = test_sign_in( Factory( :user ) )
+                @other_user = Factory( :user, :email => Factory.next( :email ) )
+                @user.follow!( @other_user )
+            end
+
+            it "should show user following" do
+                get :following, :id => @user
+                response.should have_selector( 'a', :href    => user_path( @other_user ),
+                                                    :content => @other_user.name )
+            end
+
+            it "should show user followers" do
+                get :followers, :id => @other_user
+                response.should have_selector( 'a', :href    => user_path( @user ),
+                                                    :content => @user.name )
+            end
+        end
+
     end
 
 end

@@ -28,50 +28,50 @@
 	"buffers":
 	[
 		{
-			"file": "spec/controllers/microposts_controller_spec.rb",
+			"file": "spec/controllers/relationships_controller_spec.rb",
 			"settings":
 			{
-				"buffer_size": 1776,
+				"buffer_size": 1456,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/controllers/microposts_controller.rb",
+			"file": "app/controllers/relationships_controller.rb",
 			"settings":
 			{
-				"buffer_size": 417,
+				"buffer_size": 569,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/views/pages/home.html.erb",
+			"file": "app/views/relationships/create.js.erb",
 			"settings":
 			{
-				"buffer_size": 583,
+				"buffer_size": 146,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/views/shared/_micropost_form.html.erb",
+			"file": "app/views/relationships/destroy.js.erb",
 			"settings":
 			{
-				"buffer_size": 250,
+				"buffer_size": 144,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/views/shared/_user_info.html.erb",
+			"file": "app/views/users/_follow.html.erb",
 			"settings":
 			{
-				"buffer_size": 352,
+				"buffer_size": 222,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/controllers/pages_controller.rb",
+			"file": "app/views/users/_unfollow.html.erb",
 			"settings":
 			{
-				"buffer_size": 260,
+				"buffer_size": 223,
 				"line_ending": "Unix"
 			}
 		}
@@ -79,7 +79,7 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 240.0,
+		"height": 375.0,
 		"selected_items":
 		[
 			[
@@ -111,7 +111,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 561.0
+		"width": 588.0
 	},
 	"console":
 	{
@@ -128,26 +128,47 @@
 	},
 	"file_history":
 	[
+		"/home/artem/work/rails/sample_app/spec/models/relationship_spec.rb",
+		"/home/artem/work/rails/sample_app/app/views/users/show_follow.html.erb",
+		"/home/artem/work/rails/sample_app/app/controllers/users_controller.rb",
+		"/home/artem/work/rails/sample_app/spec/requests/friendly_forwardings_spec.rb",
+		"/home/artem/work/rails/sample_app/spec/controllers/users_controller_spec.rb",
+		"/home/artem/work/rails/sample_app/spec/requests/users_spec.rb",
+		"/home/artem/work/rails/sample_app/config/routes.rb",
+		"/home/artem/work/rails/sample_app/app/models/relationship.rb",
+		"/home/artem/work/rails/sample_app/spec/models/user_spec.rb",
+		"/home/artem/work/rails/sample_app/app/models/user.rb",
+		"/home/artem/work/rails/sample_app/lib/tasks/sample_data.rake",
+		"/home/artem/work/rails/sample_app/app/models/micropost.rb",
+		"/home/artem/work/rails/sample_app/db/migrate/20121009202743_create_relationships.rb",
+		"/home/artem/work/rails/sample_app/spec/controllers/pages_controller_spec.rb",
+		"/home/artem/work/rails/sample_app/app/views/shared/_stats.html.erb",
+		"/home/artem/work/rails/sample_app/app/views/users/_follow_form.html.erb",
+		"/home/artem/work/rails/sample_app/app/views/users/_follow.html.erb",
+		"/home/artem/work/rails/sample_app/app/views/users/show.html.erb",
+		"/home/artem/work/rails/sample_app/app/views/users/_unfollow.html.erb",
+		"/home/artem/work/rails/sample_app/app/views/pages/home.html.erb",
+		"/home/artem/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
+		"/home/artem/work/rails/sample_app/app/views/shared/_feed_item.html.erb",
+		"/home/artem/work/rails/sample_app/app/helpers/microposts_helper.rb",
+		"/home/artem/work/rails/sample_app/app/controllers/microposts_controller.rb",
+		"/home/artem/work/rails/sample_app/app/views/microposts/index.html.erb",
+		"/home/artem/work/rails/sample_app/spec/requests/microposts_spec.rb",
+		"/home/artem/work/rails/sample_app/spec/controllers/microposts_controller_spec.rb",
+		"/home/artem/work/rails/sample_app/app/views/microposts/_micropost.html.erb",
+		"/home/artem/work/rails/sample_app/app/views/shared/_feed.html.erb",
+		"/home/artem/work/rails/sample_app/spec/models/micropost_spec.rb",
+		"/home/artem/work/rails/sample_app/spec/factories.rb",
+		"/home/artem/work/rails/sample_app/app/controllers/pages_controller.rb",
+		"/home/artem/work/rails/sample_app/app/views/shared/_user_info.html.erb",
+		"/home/artem/work/rails/sample_app/app/views/shared/_micropost_form.html.erb",
 		"/home/artem/work/rails/sample_app/app/views/shared/_error_messages.html.erb",
 		"/home/artem/work/rails/sample_app/app/helpers/sessions_helper.rb",
-		"/home/artem/work/rails/sample_app/app/controllers/users_controller.rb",
-		"/home/artem/work/rails/sample_app/app/controllers/microposts_controller.rb",
-		"/home/artem/work/rails/sample_app/config/routes.rb",
-		"/home/artem/work/rails/sample_app/lib/tasks/sample_data.rake",
-		"/home/artem/work/rails/sample_app/app/views/users/show.html.erb",
-		"/home/artem/work/rails/sample_app/app/views/microposts/_micropost.html.erb",
-		"/home/artem/work/rails/sample_app/spec/controllers/users_controller_spec.rb",
 		"/home/artem/work/rails/sample_app/public/stylesheets/custom.css",
 		"/home/artem/work/rails/sample_app/Gemfile",
-		"/home/artem/work/rails/sample_app/spec/models/micropost_spec.rb",
-		"/home/artem/work/rails/sample_app/app/models/micropost.rb",
-		"/home/artem/work/rails/sample_app/spec/models/user_spec.rb",
-		"/home/artem/work/rails/sample_app/spec/factories.rb",
-		"/home/artem/work/rails/sample_app/app/models/user.rb",
 		"/home/artem/work/rails/sample_app/db/migrate/20120927202623_create_microposts.rb",
 		"/home/artem/work/rails/sample_app/db/migrate/20120830183601_create_users.rb",
 		"/home/artem/work/rails/sample_app/spec/controllers/sessions_controller_spec.rb",
-		"/home/artem/work/rails/sample_app/spec/controllers/pages_controller_spec.rb",
 		"/home/artem/work/rails/sample_app/app/views/users/edit.html.erb",
 		"/home/artem/work/rails/sample_app/app/views/users/new.html.erb",
 		"/home/artem/work/rails/sample_app/app/views/users/_fields.html.erb",
@@ -158,15 +179,12 @@
 		"/home/artem/work/rails/sample_app/app/views/layouts/_header.html.erb",
 		"/home/artem/work/rails/sample_app/app/helpers/users_helper.rb",
 		"/home/artem/work/rails/sample_app/app/controllers/sessions_controller.rb",
-		"/home/artem/work/rails/sample_app/spec/requests/friendly_forwardings_spec.rb",
 		"/home/artem/work/rails/sample_app/spec/spec_helper.rb",
 		"/home/artem/work/rails/sample_app/spec/requests/layout_links_spec.rb",
-		"/home/artem/work/rails/sample_app/spec/requests/users_spec.rb",
 		"/home/artem/work/rails/sample_app/app/controllers/application_controller.rb",
 		"/home/artem/work/rails/sample_app/app/helpers/application_helper.rb",
 		"/home/artem/work/rails/sample_app/app/helpers/pages_helper.rb",
 		"/home/artem/work/rails/sample_app/config/application.rb",
-		"/home/artem/work/rails/sample_app/app/controllers/pages_controller.rb",
 		"/home/artem/work/rails/sample_app/app/views/sessions/new.html.erb",
 		"/home/artem/work/rails/sample_app/app/views/layouts/_footer.html.erb",
 		"/home/artem/.config/sublime-text-2/Packages/ZenCoding/zen-coding.sublime-settings",
@@ -175,10 +193,8 @@
 		"/home/artem/work/rails/sample_app/db/migrate/20120909184019_add_salt_to_users.rb",
 		"/home/artem/work/rails/sample_app/db/migrate/20120908185120_add_password_to_users.rb",
 		"/home/artem/work/rails/sample_app/db/migrate/20120903193527_add_email_uniqueness_index.rb",
-		"/home/artem/work/rails/sample_app/app/views/pages/home.html.erb",
 		"/home/artem/work/rails/sample_app/app/views/layouts/_stylesheets.html.erb",
 		"/home/artem/work/rails/sample_app/example_user.rb",
-		"/home/artem/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
 		"/home/artem/work/rails/sample_app/app/views/pages/help.html.erb",
 		"/home/artem/work/rails/sample_app/app/views/pages/contact.html.erb",
 		"/home/artem/work/rails/sample_app/app/views/pages/about.html.erb",
@@ -207,7 +223,7 @@
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 37.0
 	},
 	"find_in_files":
 	{
@@ -222,6 +238,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"paginate",
 			"cookies",
 			"right"
 		],
@@ -246,22 +263,56 @@
 			[
 				{
 					"buffer": 0,
-					"file": "spec/controllers/microposts_controller_spec.rb",
+					"file": "spec/controllers/relationships_controller_spec.rb",
 					"settings":
 					{
-						"buffer_size": 1776,
+						"buffer_size": 1456,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								126,
-								126
+								1368,
+								1368
 							]
 						],
 						"settings":
 						{
+							"encoding_helper_confidence": 0.0,
+							"encoding_helper_encoding": "Unknown",
+							"encoding_helper_encoding_sublime": "UTF-8",
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 153.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/controllers/relationships_controller.rb",
+					"settings":
+					{
+						"buffer_size": 569,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								544,
+								544
+							]
+						],
+						"settings":
+						{
+							"encoding_helper_confidence": 0.0,
+							"encoding_helper_encoding": "Unknown",
+							"encoding_helper_encoding_sublime": "UTF-8",
 							"syntax": "Packages/Ruby/Ruby.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
@@ -273,51 +324,27 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "app/controllers/microposts_controller.rb",
-					"settings":
-					{
-						"buffer_size": 417,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								365,
-								365
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
 					"buffer": 2,
-					"file": "app/views/pages/home.html.erb",
+					"file": "app/views/relationships/create.js.erb",
 					"settings":
 					{
-						"buffer_size": 583,
+						"buffer_size": 146,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								315,
-								315
+								140,
+								140
 							]
 						],
 						"settings":
 						{
-							"is_xml": false,
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+							"encoding_helper_confidence": 1.0,
+							"encoding_helper_encoding": "UTF-8",
+							"encoding_helper_encoding_sublime": "UTF-8",
+							"syntax": "Packages/Rails/JavaScript (Rails).tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -327,24 +354,26 @@
 				},
 				{
 					"buffer": 3,
-					"file": "app/views/shared/_micropost_form.html.erb",
+					"file": "app/views/relationships/destroy.js.erb",
 					"settings":
 					{
-						"buffer_size": 250,
+						"buffer_size": 144,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								227,
-								227
+								138,
+								138
 							]
 						],
 						"settings":
 						{
-							"is_xml": false,
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+							"encoding_helper_confidence": 1.0,
+							"encoding_helper_encoding": "UTF-8",
+							"encoding_helper_encoding_sublime": "UTF-8",
+							"syntax": "Packages/Rails/JavaScript (Rails).tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -354,23 +383,25 @@
 				},
 				{
 					"buffer": 4,
-					"file": "app/views/shared/_user_info.html.erb",
+					"file": "app/views/users/_follow.html.erb",
 					"settings":
 					{
-						"buffer_size": 352,
+						"buffer_size": 222,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								314,
-								314
+								160,
+								160
 							]
 						],
 						"settings":
 						{
-							"is_xml": false,
+							"encoding_helper_confidence": 1.0,
+							"encoding_helper_encoding": "UTF-8",
+							"encoding_helper_encoding_sublime": "UTF-8",
 							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
 						},
 						"translation.x": 0.0,
@@ -381,25 +412,26 @@
 				},
 				{
 					"buffer": 5,
-					"file": "app/controllers/pages_controller.rb",
+					"file": "app/views/users/_unfollow.html.erb",
 					"settings":
 					{
-						"buffer_size": 260,
+						"buffer_size": 223,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								123,
-								123
+								93,
+								93
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"encoding_helper_confidence": 1.0,
+							"encoding_helper_encoding": "UTF-8",
+							"encoding_helper_encoding_sublime": "UTF-8",
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -452,16 +484,80 @@
 		"selected_items":
 		[
 			[
-				"pages",
-				"app/controllers/pages_controller.rb"
+				"rele",
+				"spec/models/relationship_spec.rb"
 			],
 			[
-				"shared",
-				"app/views/shared/_error_messages.html.erb"
+				"users",
+				"app/controllers/users_controller.rb"
+			],
+			[
+				"users_",
+				"spec/controllers/users_controller_spec.rb"
+			],
+			[
+				"show.html",
+				"app/views/users/show.html.erb"
+			],
+			[
+				"routes",
+				"config/routes.rb"
+			],
+			[
+				"home.html",
+				"app/views/pages/home.html.erb"
+			],
+			[
+				"page",
+				"spec/controllers/pages_controller_spec.rb"
+			],
+			[
+				"rout",
+				"config/routes.rb"
+			],
+			[
+				"tasks/samp",
+				"lib/tasks/sample_data.rake"
+			],
+			[
+				"user",
+				"spec/models/user_spec.rb"
+			],
+			[
+				"rela",
+				"app/models/relationship.rb"
+			],
+			[
+				"relation",
+				"spec/models/relationship_spec.rb"
+			],
+			[
+				"microposts",
+				"spec/requests/microposts_spec.rb"
+			],
+			[
+				"micropost",
+				"app/controllers/microposts_controller.rb"
+			],
+			[
+				"_mic",
+				"app/views/microposts/_micropost.html.erb"
 			],
 			[
 				"home",
 				"app/views/pages/home.html.erb"
+			],
+			[
+				"pages",
+				"app/controllers/pages_controller.rb"
+			],
+			[
+				"user_s",
+				"spec/models/user_spec.rb"
+			],
+			[
+				"shared",
+				"app/views/shared/_error_messages.html.erb"
 			],
 			[
 				"micropos",
@@ -470,10 +566,6 @@
 			[
 				"session",
 				"app/helpers/sessions_helper.rb"
-			],
-			[
-				"routes",
-				"config/routes.rb"
 			],
 			[
 				"sampl",
@@ -486,10 +578,6 @@
 			[
 				"custom",
 				"public/stylesheets/custom.css"
-			],
-			[
-				"users",
-				"app/controllers/users_controller.rb"
 			],
 			[
 				"show",
@@ -508,16 +596,8 @@
 				"spec/models/micropost_spec.rb"
 			],
 			[
-				"user_s",
-				"spec/models/user_spec.rb"
-			],
-			[
 				"fac",
 				"spec/factories.rb"
-			],
-			[
-				"user",
-				"app/models/user.rb"
 			],
 			[
 				"micro",
@@ -609,15 +689,15 @@
 		[
 			[
 				"",
-				"/home/artem/work/java/java-learn.sublime-project"
+				"/home/artem/work/ruby/learn_ruby/learn_ruby.sublime-project"
 			]
 		],
 		"width": 380.0
 	},
-	"show_minimap": true,
+	"show_minimap": false,
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 224.0,
+	"side_bar_width": 232.0,
 	"status_bar_visible": true
 }
